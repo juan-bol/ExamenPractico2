@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "805936105913",
+    "firebase_url": "https://examanpractico2.firebaseio.com",
+    "project_id": "examanpractico2",
+    "storage_bucket": "examanpractico2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805936105913:android:ead16d5ad8eda4a7",
+        "android_client_info": {
+          "package_name": "com.appmoviles.examenpractico2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805936105913-k8fanvokh3n4v6ousdqkpkddd9jbt5qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appmoviles.examenpractico2",
+            "certificate_hash": "b84cd44e6d8d2734c939d420190253d0d18a05fe"
+          }
+        },
+        {
+          "client_id": "805936105913-al1rbun9ftq5506ecjk10om3p1i43fmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFqhAEhINJ2xY2NOfilqFJ87jOvtL4gwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805936105913-al1rbun9ftq5506ecjk10om3p1i43fmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

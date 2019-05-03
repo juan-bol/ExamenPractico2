@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encuesta para segmentación de mercado"
+        android:id="@+id/tv_encuesta"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre completo"
+        android:id="@+id/et_nombre"
+        android:layout_below="@+id/tv_encuesta"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu edad"
+        android:id="@+id/et_edad"
+        android:layout_below="@+id/et_nombre"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu genero:"
+        android:id="@+id/tv_genero"
+        android:layout_below="@id/et_edad"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group_genero"
+        android:layout_below="@+id/tv_genero">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombre"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:id="@+id/hombre"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujer"
+            android:id="@+id/mujer"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pregunta_heroe"
+        android:layout_below="@+id/radio_group_genero"
+        android:text="¿Cual es tu superheroe favorito?"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group_heroes"
+        android:layout_below="@+id/tv_pregunta_heroe">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Spiderman"
+            android:id="@+id/spiderman"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ironman"
+            android:id="@+id/ironman"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capitán América"
+            android:id="@+id/capitan"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capitana marvel"
+            android:id="@+id/capitana"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hulk"
+            android:id="@+id/hulk"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La viuda Negra"
+            android:id="@+id/viuda"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thor"
+            android:id="@+id/thor"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Strange"
+            android:id="@+id/doctor"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_enviar"
+        android:text="Enviar encuesta"
+        android:layout_below="@+id/radio_group_heroes"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
+
+

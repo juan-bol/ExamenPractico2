@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione de qué grupo desea ver los resultados"
+        android:id="@+id/tv_seleccione"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group_resultados"
+        android:layout_below="@+id/tv_seleccione">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Todo el público"
+            android:id="@+id/todos"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujeres adultas"
+            android:id="@+id/mujeres_adul"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombres adultos"
+            android:id="@+id/hombres_adul"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujeres adolescentes"
+            android:id="@+id/mujeres_adol"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombres adolescentes"
+            android:id="@+id/hombres_adol"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niños"
+            android:id="@+id/ninos"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_consultar"
+        android:layout_below="@+id/radio_group_resultados"
+        android:text="Consutar resultados"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_informacion"
+        android:text="Los superheroes más populares para...(Presiona consultar)"
+        android:layout_below="@+id/btn_consultar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_resultados"
+        android:layout_below="@+id/tv_informacion"
+        android:text="Resultados... (Presiona consultar)"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_regresar"
+        android:layout_below="@+id/tv_resultados"
+        android:layout_centerInParent="true"
+        android:text="Regresar a la encuesta"/>
+
+
+</RelativeLayout>
